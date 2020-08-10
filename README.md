@@ -8,6 +8,5 @@ This example allows the user to build an extire ACI fabric from scratch.  The ex
 1) Access.policies. tf
 2) variables.tf
 
-Please reach out to me if you have any questions
+Feel free to contact me cobedien@cisco.com for any questions.
 
-cobedien@cisco.com
