@@ -1,4 +1,3 @@
-cat << EOF > access_policies.tf
 provider "aci" {
     username = ""
     password = ""
@@ -218,5 +217,3 @@ resource "aci_node_block" "pod26_vpc_leaf_nodes" {
     from_                 = local.vpc_leaf_1
     to_                   = local.vpc_leaf_2
 }
-
-EOF
