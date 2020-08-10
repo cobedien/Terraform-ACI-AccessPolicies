@@ -1,0 +1,15 @@
+locals {
+    static_vlan_start       = "vlan-2600"
+    static_vlan_end         = "vlan-2649"
+    dynamic_vlan_start      = "vlan-2650"
+    dynamic_vlan_end        = "vlan-2699"
+    access_port             = "26"
+    access_leaf             = "203"
+    PC_port_1               = "51"
+    PC_port_2               = "52"
+    PC_leaf                 = "205"
+    vpc_port_1              = "26"
+    vpc_port_2              = "26"
+    vpc_leaf_1              = "207"
+    vpc_leaf_2              = "208"
+  }
